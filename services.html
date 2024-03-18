@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIDEN COURIER SERVICE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/truck2.svg">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- @@@@@@@@@@ Header section @@@@@@@@@@-->
+    <header class="container-fliud">
+        <nav id="nav" class="flex font-poppins">
+            <div class="logo">
+                <span><video class="vid" autoplay loop muted playsinline width="200px">
+                    <source src="assets/aiden.mp4" type="video/mp4">
+                </video></span>
+            </div>
+            <div class="nav-brand">
+                <h1 class="text-dark text-lg font-bold">AIDEN COURIER <br> SERVICE</h1>
+            </div>
+
+            <div class="toggle-btn">
+                <button data-modal-target="#menu" class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+            <div id="menu" class="collapse flex-grow">
+                <button data-close-button class="close-menu">
+                    &times;
+                </button>
+                <ul class="flex">
+                    <li>
+                        <a href="index.html" class="link"> HOME </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="link"> OUR SERVICES </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link"> ABOUT US </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link"> CONTACT US </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login flex-initial py-5">
+                <ul class="flex"> 
+                    <button data-modal-target="#modal" class="btn btn-shadow btn-primary bg-gradient text-light text-uppercase">
+                        <h2> Login/Sign Up </h2>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <div class="sign" id="modal">
+            <div class="message signup">
+                <button data-close-button class="close">&times;</button>
+              <div class="btn-wrapper">
+                <button class="button" id="signup">Sign Up</button>
+                <button class="button" id="login"> Login</button>
+              </div>
+            </div>
+            <div class="signupform form--signup">
+              <div class="form--heading text-lg">Welcome! Sign Up</div>
+              <form autocomplete="off">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button class="button">Sign Up</button>
+              </form>
+            </div>
+            <div class="signupform form--login">
+              <div class="form--heading text-lg">Welcome back! </div>
+              <form autocomplete="off">
+                <input type="text" placeholder="Name" required>
+                <input type="password" placeholder="Password" required>
+                <button class="button">Login</button>
+              </form>
+            </div>
+        </div>
+    </header>
+    <!-- @@@@@@@@@@ Header section @@@@@@@@@@-->
+    
+
+    <!-- @@@@@@@@@@ Main section @@@@@@@@@@-->
+    <main id="site-main">
+    <section class="cards container mx-auto py-20">
+        <h1 class="font-bold mx-auto px-10 py-5 font-poppins text-2xl"> Our Services</h1>
+        <br>
+        <br><br>
+        <h2 class="font-bold text-lg text-center">Services We Render</h2>
+        <br><br><br>
+        <div class="grid cols-1 lg-cols-2 lg-cols-3 font-poppins">
+            <div class="card bg-gradient-peach py-10 px-10">
+                <i class="text-2xl bi bi-truck"></i>
+            <h2 class="font-bold"> Shipping </h2>
+            <p class="py-5">
+                Services and technology for managing your shipping process from individuals to enterprises, local to global.
+            </p>
+            </div>
+            <div class="card bg-gradient-indigo py-10 px-10">
+                <i class="fa fa-move text-2xl"></i>
+            <h2 class="font-bold"> Tracking </h2>
+            <p class="py-5">
+                Monitoring and management solutions for individuals, complex global supply chains, and everyone in between.
+            </p>
+            </div>
+            <div class="card bg-gradient py-10 px-10">
+                <i class="bi bi-box-seam text-2xl"></i>
+            <h2 class="font-bold"> Contract Logistics </h2>
+            <p class="py-5">
+                Expertise and infrastructure to optimise your supply chain, from global delivery to warehousing and returns management.
+            </p>
+            </div>
+            <div class="card bg-gradient-peach py-10 px-10">
+                <i class="bi bi-cart4 text-2xl"></i>
+            <h2 class="font-bold"> Integrating UPS Technology </h2>
+            <p class="py-5">
+                Integrate UPS technology into your systems or website to streamline processes and share across your enterprise.
+            </p>
+            </div>
+            <div class="card bg-gradient-indigo py-10 px-10">
+                <i class="fa fa-refresh text-2xl"></i>
+            <h2 class="font-bold"> Sustainability</h2>
+            <p class="py-5">
+                Achieve your sustainability goals with help from UPS services and practices created with our promise to efficiency and environmental responsibility in mind.
+            </p>
+            </div>
+            <div class="card bg-gradient py-10 px-10">
+                <i class="bi bi-airplane text-2xl"></i>
+            <h2 class="font-bold"> international</h2>
+            <p class="py-5">
+                Our international express service delivers time sensitive documents and parcels nationwide to over 200 countries.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <!-- @@@@@@@@@@ /Main section @@@@@@@@@@-->
+
+    <!-- @@@@@@@@@@ Footer section @@@@@@@@@@-->
+    <footer id="footer">
+        <section class="container mx-auto py-10">
+            <div class="grid cols-1 lg-cols-3 font-poppins">
+                <div class="cont text-center">
+                    <h1>Contact</h1>
+                    <span>
+                        <i class="fa fa-map-marker"></i> No 33 Adedoyin street, 
+                    Igbomogun, Oreta, Igbogbo, Ikorodu, 
+                    Lagos State, Nigeria.
+                    </span>
+                    <br>
+                    <br>
+                    <span class="d-block flex"> 
+                    <i class="bi bi-phone"> (+234)8020781427 </i> 
+                    </span>
+                    <br>
+                    <span > 
+                        <a class="link" href="mailto:"><i class="fa fa-envelope-o"></i> olamilekanmuhammed68@gmail.com </a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class="text-lg icon">
+                    <a href="http://www.instagram.com/ola__mi__lekan/" target="_blank" class="link2"><i class="bi bi-instagram"></i> </a>
+                    <a href="http://www.twitter.com/@Olamile22004463" target="_blank" class="link2"><i class="bi bi-twitter"></i> </a>
+                    <a href="http://www.facebook.com/muhammed.ogunbajo.9" target="_blank" class="link2"><i class="bi bi-facebook"></i> </a>
+                    <a href="http://api.whatsapp.com/send?phone=8020781427&text=Hello i will like to...." target="_blank" class="link2"><i class="bi bi-whatsapp"></i> </a>
+                    </span>
+                </div>
+                <div class="text-center">
+                    <h1>Links</h1>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="link"> HOME </a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="link"> OUR SERVICES </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="link"> ABOUT US </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="link"> CONTACT US </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center suscribe">
+                    <h1>Newsletter</h1>
+                    <p>Subscribe to our Newsletter to get the latest news and updates.</p>
+                    <form class="div">
+                        <input type="email" placeholder="input your email address" required>
+                        <button class="btn btn-shadow btn-primary" type="submit"> GO </button>
+                    </form>
+                </div>
+            </div>
+            <div class="font-poppins">
+                <p class="py-5 text-center"> &copy; Copyright <span id="year"></span>. All Right Reserved. </p>
+            </div>
+        </section>
+    </footer>
+    
+
+    <!-- @@@@@@@@@@ Footer section @@@@@@@@@@-->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIDEN COURIER SERVICE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/truck2.svg">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- @@@@@@@@@@ Header section @@@@@@@@@@-->
+    <header class="container-fliud">
+        <nav id="nav" class="flex font-poppins">
+            <div class="logo">
+                <span><video class="vid" autoplay loop muted playsinline width="200px">
+                    <source src="assets/aiden.mp4" type="video/mp4">
+                </video></span>
+            </div>
+            <div class="nav-brand">
+                <h1 class="text-dark text-lg font-bold">AIDEN COURIER <br> SERVICE</h1>
+            </div>
+
+            <div class="toggle-btn">
+                <button data-modal-target="#menu" class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+            <div id="menu" class="collapse flex-grow">
+                <button data-close-button class="close-menu">
+                    &times;
+                </button>
+                <ul class="flex">
+                    <li>
+                        <a href="index.html" class="link"> HOME </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="link"> OUR SERVICES </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link"> ABOUT US </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link"> CONTACT US </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login flex-initial py-5">
+                <ul class="flex"> 
+                    <button data-modal-target="#modal" class="btn btn-shadow btn-primary bg-gradient text-light text-uppercase">
+                        <h2> Login/Sign Up </h2>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <div class="sign" id="modal">
+            <div class="message signup">
+                <button data-close-button class="close">&times;</button>
+              <div class="btn-wrapper">
+                <button class="button" id="signup">Sign Up</button>
+                <button class="button" id="login"> Login</button>
+              </div>
+            </div>
+            <div class="signupform form--signup">
+              <div class="form--heading text-lg">Welcome! Sign Up</div>
+              <form autocomplete="off">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button class="button">Sign Up</button>
+              </form>
+            </div>
+            <div class="signupform form--login">
+              <div class="form--heading text-lg">Welcome back! </div>
+              <form autocomplete="off">
+                <input type="text" placeholder="Name" required>
+                <input type="password" placeholder="Password" required>
+                <button class="button">Login</button>
+              </form>
+            </div>
+        </div>
+    </header>
+    <!-- @@@@@@@@@@ Header section @@@@@@@@@@-->
+    
+
+    <!-- @@@@@@@@@@ Main section @@@@@@@@@@-->
+    <main id="contact">
+        <section class="container mx-auto py-10 font-poppins">
+            <div class="reach container">
+                <h1 class="mx-auto py-5 font-poppins text-2xl">Contact Us</h1>
+                <form>
+                    <label class="font-bold text-md" for="name"> Name </label>
+                    <input class="font-bold text-md" type="text" name="name" id="name" required>
+                    <label class="font-bold text-md" for="email">Email</label>
+                    <input class="font-bold text-md" type="email" name="email" id="email" required>
+                    <label class="font-bold text-md" for="phone">Phone number</label>
+                    <input class="font-bold text-md" type="tel" name="phone" id="phone" required>
+                    <label class="font-bold text-md" for="subject"> Subject </label>
+                    <input class="font-bold text-md" type="text" name="subject" id="subject" required>
+                    <label class="font-bold text-md" for="message">message</label>
+                    <textarea class="font-bold text-md text" name="message" id="message" cols="60" rows="10" required></textarea>
+                    <button class="button" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.89896396618!2d3.5200303759071385!3d6.534442923034189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf1bcd59ca403%3A0xcaffbdf6ae4dd598!2sIkorodu%20104102%2C%20Ikorodu!5e0!3m2!1sen!2sng!4v1667950530649!5m2!1sen!2sng" width="70%" height="520" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <!-- @@@@@@@@@@ /Main section @@@@@@@@@@-->
+
+    <!-- @@@@@@@@@@ Footer section @@@@@@@@@@-->
+    <footer id="footer">
+        <section class="container mx-auto py-10">
+            <div class="grid cols-1 lg-cols-3 font-poppins">
+                <div class="cont text-center">
+                    <h1>Contact</h1>
+                    <span>
+                        <i class="fa fa-map-marker"></i> No 33 Adedoyin street, 
+                    Igbomogun, Oreta, Igbogbo, Ikorodu, 
+                    Lagos State, Nigeria.
+                    </span>
+                    <br>
+                    <br>
+                    <span class="d-block flex"> 
+                    <i class="bi bi-phone"> (+234)8020781427 </i> 
+                    </span>
+                    <br>
+                    <span > 
+                        <a class="link" href="mailto:"><i class="fa fa-envelope-o"></i> olamilekanmuhammed68@gmail.com </a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class="text-lg icon">
+                    <a href="http://www.instagram.com/ola__mi__lekan/" target="_blank" class="link2"><i class="bi bi-instagram"></i> </a>
+                    <a href="http://www.twitter.com/@Olamile22004463" target="_blank" class="link2"><i class="bi bi-twitter"></i> </a>
+                    <a href="http://www.facebook.com/muhammed.ogunbajo.9" target="_blank" class="link2"><i class="bi bi-facebook"></i> </a>
+                    <a href="http://api.whatsapp.com/send?phone=8020781427&text=Hello i will like to...." target="_blank" class="link2"><i class="bi bi-whatsapp"></i> </a>
+                    </span>
+                </div>
+                <div class="text-center">
+                    <h1>Links</h1>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="link"> HOME </a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="link"> OUR SERVICES </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="link"> ABOUT US </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="link"> CONTACT US </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center suscribe">
+                    <h1>Newsletter</h1>
+                    <p>Subscribe to our Newsletter to get the latest news and updates.</p>
+                    <form class="div">
+                        <input type="email" placeholder="input your email address" required>
+                        <button class="btn btn-shadow btn-primary" type="submit"> GO </button>
+                    </form>
+                </div>
+            </div>
+            <div class="font-poppins">
+                <p class="py-5 text-center"> &copy; Copyright <span id="year"></span>. All Right Reserved. </p>
+            </div>
+        </section>
+    </footer>
+    
+
+    <!-- @@@@@@@@@@ Footer section @@@@@@@@@@-->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
